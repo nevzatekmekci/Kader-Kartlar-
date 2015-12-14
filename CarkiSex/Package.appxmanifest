@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="23590Nevzat.KaderKartlar" Publisher="CN=3C97D11D-BC04-439E-8E37-22082827AA35" Version="1.1.0.1" />
+  <Properties>
+    <DisplayName>Kader Kartları</DisplayName>
+    <PublisherDisplayName>Nevzat</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="CarkiSex.App">
+      <m2:VisualElements DisplayName="Kader Kartları" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="Kader kartları size eşsiz bir deneyim sunar. Eğer sizde fala inanıyorsanız bu uygulamayı eminim ki seveceksiniz. Tarot falı konusunda size rehberlik sağlaması için geliştirilmiştir.  Tarot kartları hakkında önemli bilgiler içermesi sebebiyle kısa sürede en gözde uygulamalarınız arasında yer alacak. Ne demişler fala inanma ama falsızda kalma!" ForegroundText="light" BackgroundColor="#464646">
+        <m2:DefaultTile ShortName="Kader Kartları" Wide310x150Logo="Assets\Wide310x150Logo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#000000" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>
